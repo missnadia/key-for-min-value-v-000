@@ -10,6 +10,7 @@ def key_for_min_value(hash)
     elsif a > b
       1
     end
+  end
   hash.collect {|name, value| name}
 
 end
